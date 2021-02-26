@@ -38,7 +38,7 @@ def parse_args():
                         help='times of channel width')
     parser.add_argument('--dataset', type=str, default='DENTIST',
                         help='dataset name: DENTIST, Iceberg, StopSign')
-    parser.add_argument('--workers', type=int, default=4,
+    parser.add_argument('--workers', type=int, default=48,
                         metavar='N', help='dataloader threads')
     parser.add_argument('--base-size', type=int, default=512,
                         help='base image size')
